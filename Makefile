@@ -2,12 +2,6 @@ VERSION=v0.1.7
 GOVERSION=$(shell go version)
 LDFLAGS='-X main.versionString=${VERSION} -X "main.goVersionString=${GOVERSION}"'
 
-docker:
-	docker build -t turbobytes/dnsperfbench .
-	docker tag turbobytes/dnsperfbench turbobytes/dnsperfbench:$(VERSION)
-	docker push turbobytes/dnsperfbench:latest
-	docker push turbobytes/dnsperfbench:$(VERSION)
-
 release:
 	#Make release assets
 	#echo ${LDFLAGS}
