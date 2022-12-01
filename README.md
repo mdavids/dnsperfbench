@@ -1,5 +1,5 @@
 # dnsperfbench
-DNS Performance Benchmarker
+DNS Performance Benchmarker - copy/fork for testing.
 
 dnsperfbench is a command line tool to compare performance of popular public DNS resolvers from your computer, including Google Public DNS, OpenDNS and Cloudflare's 1.1.1.1.
 
