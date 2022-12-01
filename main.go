@@ -63,19 +63,11 @@ var (
 	}
 	//Duration to signal fail
 	failDuration = time.Second * 10
-	hostnamesHIT = []string{"fixed.turbobytes.net.", "fixed2.turbobytes.net."}
+	hostnamesHIT = []string{"example.nl.", "www.example.nl."}
 	auths        = map[string]string{
-		"NS1":         "tbrum3.com.",
-		"Google":      "tbrum4.com.",
-		"AWS Route53": "tbrum5.com.",
-		"DNSimple":    "tbrum14.com.",
-		"GoDaddy":     "tbrum2.com.",
-		"Akamai":      "tbrum9.com.",
-		"Dyn":         "tbrum10.com.",
-		"CloudFlare":  "tbrum8.com.",
-		"EasyDNS":     "tbrum16.com.",
-		"Ultradns":    "tbrum22.com.",
-		"Azure":       "tbrum25.com.",
+		"SIDN":         "ex1.sidnlabs.nl.",
+		"SIDNLabs":      "ex1.sidnlabs.nl.",
+		"Anycast2020": "anytest1.sidnlabs.nl.",
 	}
 	authSl          []string
 	versionString   = "dirty"
