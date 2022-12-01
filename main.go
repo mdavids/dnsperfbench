@@ -59,7 +59,6 @@ var (
 	//All answers must match these
 	expectedanswers = map[string]struct{}{
 		"94.198.159.35": struct{}{},
-		"94.198.159.35":  struct{}{},
 	}
 	//Duration to signal fail
 	failDuration = time.Second * 10
