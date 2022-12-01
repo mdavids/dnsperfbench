@@ -41,19 +41,12 @@ var (
 		"8.8.8.8":                "Google",
 		"1.1.1.1":                "Cloudflare",
 		"9.9.9.9":                "Quad9",
-		"114.114.114.114":        "114dns",
-		"119.29.29.29":           "DNSPod",
-		"180.76.76.76":           "Baidu",
 		"208.67.222.222":         "OpenDNS",
-		"199.85.126.20":          "Norton",
-		"185.228.168.168":        "Clean Browsing",
-		"8.26.56.26":             "Comodo",
 		"194.0.5.3":              "DNS4all",
 		"[2001:4860:4860::8888]": "Google",
 		"[2606:4700:4700::1111]": "Cloudflare",
 		"[2620:fe::fe]":          "Quad9",
-		"[2620:0:ccc::2]":        "OpenDNS", //https://www.opendns.com/about/innovations/ipv6/
-		"[2a0d:2a00:1::]":        "Clean Browsing",
+		"[2620:0:ccc::2]":        "OpenDNS",
 		"[2001:678:8::3]":        "DNS4all",
 	}
 	//All answers must match these
