@@ -48,11 +48,13 @@ var (
 		"199.85.126.20":          "Norton",
 		"185.228.168.168":        "Clean Browsing",
 		"8.26.56.26":             "Comodo",
+		"194.0.5.3":              "DNS4all",
 		"[2001:4860:4860::8888]": "Google",
 		"[2606:4700:4700::1111]": "Cloudflare",
 		"[2620:fe::fe]":          "Quad9",
 		"[2620:0:ccc::2]":        "OpenDNS", //https://www.opendns.com/about/innovations/ipv6/
 		"[2a0d:2a00:1::]":        "Clean Browsing",
+		"[2001:678:8::3]":        "DNS4all",
 	}
 	//All answers must match these
 	expectedanswers = map[string]struct{}{
