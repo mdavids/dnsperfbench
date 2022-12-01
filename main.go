@@ -46,20 +46,19 @@ var (
 		"[2001:4860:4860::8888]": "Google",
 		"[2606:4700:4700::1111]": "Cloudflare",
 		"[2620:fe::fe]":          "Quad9",
-		"[2620:0:ccc::2]":        "OpenDNS",
+		"[2620:0:ccc::2]":        "OpenDNS", //https://www.opendns.com/about/innovations/ipv6/
 		"[2001:678:8::3]":        "DNS4all",
 	}
 	//All answers must match these
 	expectedanswers = map[string]struct{}{
 		"94.198.159.35": struct{}{},
+		"198.51.100.1": struct{}{},
 	}
 	//Duration to signal fail
 	failDuration = time.Second * 10
-	hostnamesHIT = []string{"example.nl.", "www.example.nl."}
+	hostnamesHIT = []string{"example.nl."}
 	auths        = map[string]string{
-		"SIDN":         "ex1.sidnlabs.nl.",
-		"SIDNLabs":      "ex1.sidnlabs.nl.",
-		"Anycast2020": "anytest1.sidnlabs.nl.",
+		"Wildcard": "wildcard.example.nl.",
 	}
 	authSl          []string
 	versionString   = "dirty"
